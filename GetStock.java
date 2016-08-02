@@ -1,3 +1,10 @@
+/**
+ * AUTHOR: RONAK PANAHI
+ * Date: November 2015
+ * Getting on-line stock quotes from Yahoo ***(with a Socket)***
+ */
+ 
+ 
 package socket;
 
 import java.io.BufferedReader;
