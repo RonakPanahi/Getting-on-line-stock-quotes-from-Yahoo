@@ -1,3 +1,9 @@
+/**
+ * AUTHOR: RONAK PANAHI
+ * Date: November 2015
+ * Problem: Getting the Online stock quotes from yahoo.com
+ */
+ 
 package stockMarket;
 
 import java.io.BufferedReader;
@@ -35,7 +41,6 @@ public class StockQuoteRead {
 			    		int x = newLine.indexOf(tag)+54;
 			    		int y = newLine.indexOf( "</span>", x );
 			    		System.out.println(stock_symbol.toUpperCase() +" is at "+newLine.substring(x,y));
-			    		
 			    		
 			    		// or we can use regular expression ==> "([\\d]+[\\.]?[\\d]*)
 			    	}
